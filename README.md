@@ -1,50 +1,25 @@
 # Calvin Quint
 
-**Detection Engineer** — KQL · Microsoft Sentinel · DFIR · M365 Security
+**Infrastructure Engineer focused on security operations, identity, and automation.**
 
-Blue team is where I've built depth, not where I'm stopping. I write and maintain detection logic across Sentinel/Defender as code — Bicep-managed, version-controlled, not click-ops — handle identity security across Entra ID and Intune, and work on certificate-based network access (RADIUS, IPsec VPN architecture). The day-to-day is less "the tool flagged it" and more: write the detection, know exactly why it fires, know exactly what it'd miss.
+[Website](https://calvinquint.com) · [LinkedIn](https://www.linkedin.com/in/calvin-quint/) · [Email](mailto:calvin@quint.ms)
 
----
+I work across Microsoft Sentinel, Defender XDR, Entra ID, Intune, and Azure. My interests center on understanding suspicious activity, improving detections, and making infrastructure easier to secure and maintain.
 
-## Where this is headed
+## What I work on
 
-Blue team engineering is the foundation for a broader security engineering track, not a fixed lane. Right now that means closing specific gaps rather than collecting certifications for their own sake:
-
-- **Python fluency** — writing tools from scratch, not gluing scripts together to clear a ticket
-- **OSCP** — offensive fundamentals, on the theory that you understand detection better once you've built the thing it's supposed to catch
-- **AWS security** — cloud is where the next tier of detection and security engineering work actually lives
-- **First-principles depth over tool-naming** — "EDR flagged an anomalous process" is a start, not an answer; the goal is explaining what's happening at the process/kernel/API level underneath the alert
-
-## Core stack
-
-| Area | Tools |
+| Area | Focus |
 |---|---|
-| Detection & SIEM | Microsoft Sentinel, KQL, Defender (XDR/Endpoint/Identity) |
-| Identity & Endpoint | Entra ID, Intune, Conditional Access |
-| Infrastructure as Code | Bicep, ARM |
-| Network & Identity Security | RADIUS (EZRADIUS), IPsec VPN architecture, PKI/cert-based auth |
-| Scripting / Automation | PowerShell, Python (actively deepening) |
-| In progress | AWS security, OSCP / offensive fundamentals |
+| Detection engineering | KQL analytics and hunting queries for Sentinel and Defender |
+| Security operations | Incident investigation, response playbooks, and Sentinel automation |
+| Identity and infrastructure | Entra ID, Conditional Access, Azure, certificate-based network access, and PKI |
+| Endpoint management | Intune, Defender for Endpoint, and Jamf |
+| Automation | PowerShell for administration and repeatable operational workflows |
 
-## What I'm building
+## How I use GitHub
 
-- **`security-tools`** — original CLI tools (log parsers, recon utilities) with real structure: argument parsing, proper error handling, a README that explains the design tradeoffs — not a folder of one-off scripts
-- **`htb-writeups`** — structured writeups of retired HTB/TryHackMe machines: recon process, exploitation path, and what I'd do differently next time
-- **`vuln-research`** — bug bounty and vulnerability research methodology, tooling, and post-disclosure writeups
-- **`detection-engineering-translated`** — real detection logic reimplemented against a generic log format in Python, with ATT&CK mapping, so the underlying thinking is legible without knowing what Sentinel is
+GitHub is where I organize personal documentation, guides, scripts, troubleshooting notes, and lab work. I keep procedures and examples here so I can revisit what worked, understand the decisions behind it, and build on it later.
 
-## Currently following
+My lab work includes offensive security practice, homelab infrastructure, and exploring how attacker behavior connects to defensive visibility.
 
-Recent CVE/KEV activity, detection engineering community work (SigmaHQ, detection.fyi), and Windows/Linux process internals — the layer that explains *why* a detection fires, not just that it did.
-
----
-
-## GitHub activity
-
-![Calvin's GitHub stats](https://github-readme-stats.vercel.app/api?username=calvin-quint&show_icons=true&hide_title=true&hide_border=true&count_private=true)
-
-![Top languages](https://github-readme-stats.vercel.app/api/top-langs/?username=calvin-quint&layout=compact&hide_border=true)
-
----
-
-Open to conversations about detection engineering, cloud security, and the blue-team-to-broader-security-engineering path.
+For project summaries and more about my background, visit [calvinquint.com](https://calvinquint.com).
