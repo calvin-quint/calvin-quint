@@ -1,25 +1,22 @@
 # Calvin Quint
 
-**Infrastructure Engineer focused on security operations, identity, and automation.**
+I like figuring out why something happened, what the logs can prove, and how to make the next investigation easier.
 
-[Website](https://calvinquint.com) · [LinkedIn](https://www.linkedin.com/in/calvin-quint/) · [Email](mailto:calvin@quint.ms)
+This GitHub is my working notebook for security, infrastructure, and the things I try in the homelab. It holds procedures worth keeping, scripts that save repeat work, and notes that make more sense with the troubleshooting still attached.
 
-I work across Microsoft Sentinel, Defender XDR, Entra ID, Intune, and Azure. My interests center on understanding suspicious activity, improving detections, and making infrastructure easier to secure and maintain.
+## The threads I keep pulling
 
-## What I work on
+- **Following the evidence.** Sign-ins, endpoint activity, and the sequence of events that turns an alert into something explainable.
+- **Making detections useful.** KQL, investigation queries, and understanding what a rule catches, what it misses, and why it fires.
+- **Understanding both sides.** Offensive lab practice alongside defensive work, connecting attacker behavior to the evidence it leaves behind.
+- **Making systems manageable.** Identity, endpoints, certificates, automation, and the infrastructure underneath them.
 
-| Area | Focus |
-|---|---|
-| Detection engineering | KQL analytics and hunting queries for Sentinel and Defender |
-| Security operations | Incident investigation, response playbooks, and Sentinel automation |
-| Identity and infrastructure | Entra ID, Conditional Access, Azure, certificate-based network access, and PKI |
-| Endpoint management | Intune, Defender for Endpoint, and Jamf |
-| Automation | PowerShell for administration and repeatable operational workflows |
+## Notes worth coming back to
 
-## How I use GitHub
+The useful part of a writeup is the context: what was being attempted, what failed, what finally worked, and how to check the result. That's what I want these repositories to preserve.
 
-GitHub is where I organize personal documentation, guides, scripts, troubleshooting notes, and lab work. I keep procedures and examples here so I can revisit what worked, understand the decisions behind it, and build on it later.
+PowerShell and KQL show up often. So do configuration details, investigation timelines, lab experiments, and the occasional rabbit hole that deserved its own document.
 
-My lab work includes offensive security practice, homelab infrastructure, and exploring how attacker behavior connects to defensive visibility.
+---
 
-For project summaries and more about my background, visit [calvinquint.com](https://calvinquint.com).
+A place to leave the breadcrumbs for next time.
